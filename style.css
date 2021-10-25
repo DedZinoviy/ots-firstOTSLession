@@ -1,0 +1,131 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+body
+{
+font-family: 'Roboto', sans-serif;;
+font-size: 11pt;
+background-color: #f5f6e8;
+color: #8b1338;
+text-align: center;
+}
+
+h1
+{
+font-size: 24pt;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+background-color: #e2c1bd;
+}
+
+p{
+    text-align: end;
+}
+
+.menu
+{   
+}
+
+/* Стиль блока меню*/
+.rectangle-menu { 
+    margin: 20px;
+    width: 250px; 
+    height: 100vh; 
+    background: #8b1338; 
+    border-radius: 30px;
+}
+
+.desk
+{
+
+}
+
+/* Стиль рабочего стола*/
+.rectangle-desk{
+    margin:20px;
+    width: 1500px;
+    height: 100vh;
+    background: #e2c1bd;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.displays{
+display: flex;
+flex-direction: row;
+}
+
+
+/*С этого момента происходит полная ересь*/
+.description{
+    background-image: url('teaser.jpg');
+    background-color: #8b1338;
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 20px;
+}
+
+.cover{
+    margin: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: #f5f6e8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+
+.description-text
+{
+    margin: 20px;
+    background-color: #f5f6e8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /*padding: ;*/
+    color: #8b1338;
+}
+
+.button {
+    background-color: #e2c1bd;
+    border: none;
+    color: black;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+.main{
+    position: absolute;
+  /*  top:;
+    left:;
+    right:;*/
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    gap: 1rem; 
+    margin: 0;
+    align-items: center;
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: white;
+}
